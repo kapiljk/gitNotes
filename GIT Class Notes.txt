@@ -1,0 +1,100 @@
+GIT:(Source code management Tool or  Version control Tool)
+----
+To push our code from Local to Respository
+and pull the code from repository to Local
+
+GITHub - Repository
+
+GITBash - Tool used to push and pull by  using GIT commands
+
+
+Open GITHUB Account:
+---------------------
+Google GITHUB SignUP --> Join GITHUB
+
+Create a repository
+
+Download GIT BASH
+----------------------------------------------------------------------------------------
+How to Push your code from Local to Repository?
+-----------------------------------------------
+1. Right click on your project 
+2. Click show in --> system explorer
+3. Go inside the project
+4. Right click and give GITBash here
+5. Configure GIT(only one time process)
+		--> git config --global user.email emailaddress
+		--> git config --global user.name GITHUB username
+6. Initialize our project(one time for one project)
+		--> git init
+7. Check the status of the code
+		--> git status
+8. Add the files
+		--> git add .
+9. Commit the files:
+		--> git commit -m "message"
+10. Add the repository path(First time push)
+		--> git remote add origin url
+11. Push your code
+		--> git push -u origin master
+-------------------------------------------------------------------------------------
+How to clone the project from GIT?
+---------------------------------
+1. Create a empty folder
+2. Right click and give git bash
+3. git clone url
+4. Go to eclipse and click file --> import
+5. Import the project to eclipse
+------------------------------------------------------------------------------------
+master --> main branch
+
+How to create your own branch?
+--------------------------------
+Create a branch from master
+checkout to own branch --> git checkout -b branchname
+-------------------------------------------------------------------------------------
+How to give access to other users?
+-----------------------------------
+In repository, go to settings --> Collaborators 
+
+1st Branch:
+-----------
+
+Push code to own branch and give pull request and merge to master
+
+2nd Branch:
+-----------
+Take the latest pull from master and then only I can give pull request
+
+git pull origin master
+
+If we are not taking the latest clone from master and try to give pull request conflicts will occur in GITHUB, which 
+will create Issues. SO what we should do means we need to take latest pull from master and then remove header and
+tail and then push or codes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
